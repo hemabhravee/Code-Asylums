@@ -33,6 +33,9 @@ string isBalanced(string str){
                     //otherwise, go to next loop
                     goto next;
                 }
+                //if a closing bracket doesn't match with it's opening counterpart, return false
+                else if(str[i] == B[j] && y != A[j])
+                    return "NO";
             }
             //if opening and closing brackets dont match, just push
             s.push(str[i]);
