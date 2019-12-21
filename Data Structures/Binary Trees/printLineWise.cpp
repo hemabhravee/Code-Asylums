@@ -20,3 +20,16 @@ printLineWise(node* root){
         }
     }
 }
+
+printLineWise2(node* root){
+    queue<node*> q;
+    while(!q.empty()){
+        int size = q.size();
+        while(size--){
+            temp = q.front();
+            q.pop();
+            cout<<temp->data<<" ";
+        }
+        cout<<endl;
+    }
+}
