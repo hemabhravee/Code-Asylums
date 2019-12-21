@@ -10,7 +10,6 @@ int height(Node* node){
     return h+1;
 }
 
-
 int node* heightDiff(node* root){
     if(root == NULL)
         return 0;

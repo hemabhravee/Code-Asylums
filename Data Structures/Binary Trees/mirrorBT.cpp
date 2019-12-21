@@ -8,4 +8,4 @@ void mirrorBT(Node* node)
         node->left = node->right;
         node->right = temp;
     }
-}
+} 

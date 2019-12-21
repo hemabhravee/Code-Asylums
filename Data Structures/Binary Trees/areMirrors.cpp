@@ -1,4 +1,4 @@
-bool areMirrors(node* root1, node* root2){
+bool areMirrors(node* root1, node* root2){ 
     if(root1 == NULL && root2 == NULL)
         return 1;
     if(root1 == NULL || root2 == NULL)
